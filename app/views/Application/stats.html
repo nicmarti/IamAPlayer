@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+#{set title:'Stats' /}
+
+
+<div class="grid_12">
+     ${allUsers}
+    <ul>
+    #{list items:allUsers, as:'userP'}
+        ${userP.name} ${userP.location}<br/>
+    #{/list}
+   </ul>
+</div>
+
+<div class="clear"></div>
