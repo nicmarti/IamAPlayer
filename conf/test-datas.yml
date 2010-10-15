@@ -1,0 +1,12 @@
+PlayerUser(p1):
+  email: gbort@demo.fr
+  name: Guillaume Bort
+  startedPlay: 2008-09-01
+  location: Paris, France
+
+PlayerUser(p2):
+  email: nicolas@demo.fr
+  name: Nicolas Martignole
+  startedPlay: 2010-02-23
+  location: Noisy-le-Grand, France
+
