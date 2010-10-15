@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>#{get 'title' /}</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/main.css'}">
-        #{get 'moreStyles' /}
-        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-        <script src="@{'/public/javascripts/jquery-1.4.2.min.js'}" type="text/javascript" charset="utf-8"></script>
-        #{get 'moreScripts' /}
-    </head>
-    <body>
-        #{doLayout /}
-    </body>
+<head>
+    <title>#{get 'title' /}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/main.css'}">
+    #{get 'moreStyles' /}
+    <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+    <script src="@{'/public/javascripts/jquery-1.4.2.min.js'}" type="text/javascript" charset="utf-8"></script>
+    #{get 'moreScripts' /}
+</head>
+<body>
+
+<div class="container_12">
+
+    <div id="header" class="grid_8 prefix_4">
+        <img src="/public/images/logo_iamaplayer.jpg" alt="Logo I am a Player"/>
+    </div>
+    <div id="counter" class="grid_8">
+        ${playersCount} Player's !
+    </div>
+    <div id="nav" class="grid_4">
+        #{a @Application.index()}Main#{/a}
+        #{a @Application.stats()}Stats#{/a}
+    </div>
+
+    #{doLayout /}
+
+
+    <div id="footer" class="grid_12">
+        <p>Copyright(c) 2010 N.Martignole - <img src="../../public/images/licence.png" alt="Licence Commons Creative"/> </p>
+    </div>
+</div>
+</body>
 </html>

@@ -3,10 +3,10 @@
 
 
 <div class="grid_12">
-     ${allUsers}
+
     <ul>
     #{list items:allUsers, as:'userP'}
-        ${userP.name} ${userP.location}<br/>
+        <li>${userP.name} ${userP.location}</li>
     #{/list}
    </ul>
 </div>

@@ -37,8 +37,11 @@ public class PlayerUser extends GenericModel {
     @Override
     public String toString() {
         return "PlayerUser{" +
-                "email='" + email + '\'' +
+                "id='" + id + '\'' +
+                ", email='" + email + '\'' +
+                ", name='" + name + '\'' +
+                ", startedPlay=" + startedPlay +
+                ", location='" + location + '\'' +
                 '}';
     }
-    
 }

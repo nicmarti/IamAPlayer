@@ -1,6 +1,6 @@
-I-am-a-Player is a project that offers a web interface so that any Play! Framework developer can register
+Licence
 
-More to come soon
+This work is distributed as-is with no warranty under a 
 
-Nicolas Martignole
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Contrat Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">IamAPlayer</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://github.com/nicmarti/IamAPlayer" property="cc:attributionName" rel="cc:attributionURL">Nicolas Martignole</a> est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">licence Creative Commons Paternité - Pas d'Utilisation Commerciale - Partage des Conditions Initiales à l'Identique 3.0 Unported</a>.<br />Basé(e) sur une oeuvre à <a xmlns:dct="http://purl.org/dc/terms/" href="http://github.com/nicmarti/IamAPlayer" rel="dct:source">github.com</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues à <a xmlns:cc="http://creativecommons.org/ns#" href="http://github.com/nicmarti/IamAPlayer" rel="cc:morePermissions">http://github.com/nicmarti/IamAPlayer</a>.
 

@@ -1,4 +1,38 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-#{welcome /}
+
+<div class="grid_12">
+   <img src="/public/images/texte_are_you.jpg" alt="Are you a Play! Framework developer ?"/>
+   <p>Create your profile and see who is also using Play! Framework in your country.</p> 
+</div>
+
+<div class="grid_8">
+<img src="http://maps.google.com/maps/api/staticmap?center=paris,france&zoom=2&size=900x400&sensor=false" alt="Google Map Static Map"/>
+
+</div>
+<div class="grid_4">
+<h3>Add your profile</h3>
+<p>Join the Player! comunity, create your profile with a valid email address:</p>    
+#{form @Application.register()}
+<p><label for="email" title="Email">Email:</label><input type="email" name="email" id="email" value=""/></p>
+<p><label for="name" title="Name">Name:</label><input type="text" name="name" id="name" value=""/></p>
+<p><label for="location" title="Location">Your location:</label><input type="text" name="location" id="location" value=""/></p>
+<p><label for="startedPlay" title="">When did you start to use Play!</label><input type="date" id="startedPlay" name="startedPlay" value="2010-10-01"/></p>
+<p><input type="submit" value="Create my profile"/> </p>
+
+
+
+#{/form}
+
+#{if flash.success}
+<div class="successBox">${flash.success}</div>
+#{/if}
+
+#{if flash.error}
+<div class="errorBox">${flash.error}</div>    
+#{/if}
+
+</div>
+
+<div class="clear"></div>
