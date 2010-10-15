@@ -369,5 +369,15 @@ body {
 
 .li {
     color:black;
-    
+
+}
+
+.rightCell{
+    text-align:right;
+    font-size:0.8em;
+}
+
+.mapBox {
+ border-width:5px;
+    border-style:groove;
 }
