@@ -2,13 +2,16 @@
 #{set title:'Stats' /}
 
 
-<div class="grid_12">
-
-    <ul>
+<div class="grid_8" style="background-color:#7fffd4;">
+    <p>Latest users:</p>
+    <ul class="simpleList">
     #{list items:allUsers, as:'userP'}
         <li>${userP.name} ${userP.location}</li>
     #{/list}
    </ul>
+</div>
+<div class="grid_4" style="background-color:#ffebcd;">
+    Exemple de texte
 </div>
 
 <div class="clear"></div>
